@@ -41,7 +41,7 @@
     "@types/hast": "3.0.5",
     "@types/mdast": "4.0.4",
     "@types/mime-types": "3.0.1",
-    "@types/node": "26.1.1",
+    "@types/node": "26.1.2",
     "github-markdown-css": "5.9.0",
     "mermaid": "11.16.0",
     "oxfmt": "0.59.0",
