@@ -18,7 +18,7 @@ COPY scripts ./scripts
 COPY src ./src
 RUN PERUSE_BUILD_VERSION="${VERSION}" bun run binary
 
-FROM cgr.dev/chainguard/git:latest-glibc@sha256:7671e64c37b99739fd52eb5ae4299e957c5095e083d6ee5dcd1845ce850a7614 AS runtime
+FROM cgr.dev/chainguard/git:latest-glibc@sha256:d57114522a99da01911b9c6702ef6c4a18bd19f79ccd49a780e78303b1d36640 AS runtime
 ARG VERSION=dev
 LABEL org.opencontainers.image.title="Peruse" \
       org.opencontainers.image.description="minimal server to view markdown and code" \
